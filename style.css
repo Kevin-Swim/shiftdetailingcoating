@@ -92,7 +92,7 @@ nav {
   height: 70vh;
   min-height: 500px;
   background:
-    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)),
     url('./assets/GTI2.png') center/cover no-repeat;
   color: white;
   display: flex;
@@ -100,7 +100,7 @@ nav {
   justify-content: flex-start;
   align-items: center;
   text-align: center;
-  padding: 0 5% 3rem;               /* Removed top padding – content starts near top */
+  padding: 0 5% 3rem;
   position: relative;
   margin-top: 0;
 }
