@@ -180,98 +180,70 @@
     <p>Mobile service • <a href="mailto:johnm@shiftdetailingcoatingllc.com">johnm@shiftdetailingcoatingllc.com</a> • <a href="tel:+18013198426">(801) 319-8426</a></p>
   </footer>
 
+    <!-- Schema Markup -->
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "@id": "https://johnm-creator.github.io/shiftdetailingcoating/#localbusiness",
-      "name": "Shift Detailing & Coating LLC",
-      "description": "Professional mobile auto detailing and ceramic coating service in Kaysville, Utah.",
-      "url": "https://johnm-creator.github.io/shiftdetailingcoating",
-      "telephone": "+18013198426",
-      "email": "johnm@shiftdetailingcoatingllc.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "220 S 900 E",
-        "addressLocality": "Kaysville",
-        "addressRegion": "UT",
-        "postalCode": "84037",
-        "addressCountry": "US"
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://johnm-creator.github.io/shiftdetailingcoating/#localbusiness",
+    "name": "Shift Detailing & Coating LLC",
+    "description": "Professional mobile auto detailing and ceramic coating service in Kaysville, Utah.",
+    "url": "https://johnm-creator.github.io/shiftdetailingcoating",
+    "telephone": "+18013198426",
+    "email": "johnm@shiftdetailingcoatingllc.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "220 S 900 E",
+      "addressLocality": "Kaysville",
+      "addressRegion": "UT",
+      "postalCode": "84037",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.0352,
+      "longitude": -111.9385
+    },
+    "areaServed": ["Kaysville", "Layton", "Farmington", "Bountiful", "Syracuse", "Davis County"],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      }
+    ],
+    "priceRange": "$$",
+    "image": "https://johnm-creator.github.io/shiftdetailingcoating/assets/ShiftLLCLogo.JPG",
+    "sameAs": [
+      "https://x.com/CoatingShi81471",
+      "https://www.facebook.com/shiftdetailingcoatingllc",
+      "https://www.instagram.com/shiftdetailingcoatingllc/"
+    ],
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Mobile Auto Detailing" }
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 41.0352,
-        "longitude": -111.9385
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Ceramic Coating" }
       },
-      "serviceArea": {
-        "@type": "GeoCircle",
-        "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 41.0352, "longitude": -111.9385 },
-        "geoRadius": "50000"
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Paint Correction & Polishing" }
       },
-      "areaServed": ["Kaysville", "Layton", "Farmington", "Bountiful", "Syracuse", "Davis County"],
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-          "opens": "08:00",
-          "closes": "18:00"
-        }
-      ],
-      "priceRange": "$$",
-      "image": "https://johnm-creator.github.io/shiftdetailingcoating/assets/ShiftLLCLogo.JPG",
-
-      <!-- YOUR UPDATED SOCIAL PROFILES -->
-      "sameAs": [
-        "https://x.com/CoatingShi81471",
-        "https://www.facebook.com/shiftdetailingcoatingllc",
-        "https://www.instagram.com/shiftdetailingcoatingllc/"
-      ],
-
-      <!-- Enhanced Services (helps Google understand what you offer) -->
-      "makesOffer": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Mobile Auto Detailing",
-            "description": "Full car wash, exterior detailing, interior deep cleaning"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Ceramic Coating",
-            "description": "Professional 3-8 year ceramic coatings with exceptional protection"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Paint Correction & Polishing",
-            "description": "Swirl removal, scratch repair, and multi-stage paint polishing"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Decontamination",
-            "description": "Clay bar treatment, iron removal, tar & sap removal"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Car Waxing & Sealants",
-            "description": "Premium hand waxing and paint sealants"
-          }
-        }
-      ]
-    }
-    </script>
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Decontamination" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Car Waxing & Sealants" }
+      }
+    ]
+  }
+  </script>
 
   <script src="script.js" defer></script>
 </body>
