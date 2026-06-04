@@ -107,24 +107,6 @@ nav {
   margin-top: 0;
 }
 
-#hero-nissan {
-  height: 70vh;
-  min-height: 500px;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)),
-    url('./assets/IMG_2990.jpeg') center/cover no-repeat;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: left;
-  padding: 0 5% 3rem;
-  /* Removed top padding – content starts near top */
-  position: relative;
-  margin-top: 0;
-}
-
 .hero-content {
   max-width: 900px;
   margin-top: 1rem;
@@ -281,6 +263,7 @@ footer a {
     height: 65vh;
     min-height: 480px;
     padding: 0 5% 2.5rem;
+    margin-top: 5%;
     /* No top padding on mobile too */
   }
 
